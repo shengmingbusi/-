@@ -1,0 +1,332 @@
+@charset "utf-8";
+.dis-table {
+  display: table;
+}
+.dis-table > div {
+  display: table-cell;
+  vertical-align: top;
+}
+.content-box {
+  padding: 0.34rem 0.3rem 0.3rem 0.3rem;
+  background-color: #e6e3d4;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pt20 {
+  padding-top: 0.4rem;
+}
+.pt40 {
+  padding-top: 0.8rem;
+}
+.pr {
+  position: relative;
+}
+
+/* 弹窗 */
+.com-popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  width: 15rem;
+  margin-left: -7.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  /*支付确认信息弹窗*/
+  /*支付确认信息弹窗 2 */
+  /*支付弹框*/
+}
+.com-popup .popup-main {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.com-popup .popup-fade {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.com-popup .popup-content {
+  border: 1px solid #ba660c;
+  background: #e2e2e2;
+  border-radius: .14rem;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  width: 10rem;
+  height: 5rem;
+  left: 50%;
+  margin-left: -5rem;
+  margin-top: 50%;
+}
+.com-popup .popup-content .quit-tip {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.48rem;
+  line-height: 1.4;
+}
+.com-popup .popup-content .quit-btn-group {
+  margin-top: .3rem;
+}
+.com-popup .popup-content .quit-btn-group a {
+  width: 3rem;
+  height: 1.2rem;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 1.4rem;
+  background-color: #ba660c;
+  font-size: 0.48rem;
+  color: #fff;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -o-border-radius: 0.1rem;
+  -webkit-box-shadow: 0 2px 6px -2px #000000;
+  box-shadow: 0 2px 6px -2px #000000;
+  margin-left: 1rem;
+}
+.com-popup .popup-content .quit-btn-group a:first-child {
+  float: right;
+  margin-right: 1rem;
+}
+.com-popup .close-btn {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  width: .8rem;
+  height: .8rem;
+  background: url("../images/close_btn.png")/*tpa=https://yzz.nipshou.com/static/images/close_btn.png*/ no-repeat center;
+  background-size: .8rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.com-popup .popup-main .pay {
+  width: 12.9rem;
+  height: 12.16rem;
+  top: 50%;
+  margin-left: -6.45rem;
+  margin-top: -6.08rem;
+}
+.com-popup .form-group {
+  padding: 0;
+}
+.com-popup .form-group .form-wrap {
+  border: 0;
+}
+.com-popup .form-group input[type='submit'] {
+  width: 10.12rem;
+  height: 1.7rem;
+  font-size: 0.72rem;
+  margin: 1.06rem auto;
+  border-radius: 0.06rem;
+  -webkit-border-radius: 0.06rem;
+  -moz-border-radius: 0.06rem;
+  -o-border-radius: 0.06rem;
+  display: block;
+}
+.com-popup .pay-form-popup .form-item label,
+.com-popup .pay-form-popup .form-item input {
+  font-size: 0.52rem !important;
+}
+.com-popup .popup-tip {
+  font-size: 0.56rem;
+  padding: 0.46rem 1rem;
+  text-align: center;
+  color: #811b02;
+  background-color: #fdf9de;
+  border-radius: .14rem .14rem 0 0;
+}
+.com-popup .p-s-img {
+  width: 12.48rem;
+  height: 6.4rem;
+  display: block;
+  margin: 0 auto;
+}
+.com-popup .pay-success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -6.24rem;
+  margin-top: -3.2rem;
+  z-index: 10;
+}
+
+.com-popup.popup-qr-pc .popup-content {
+  width: 14rem;
+  height: 11.8rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -5.9rem;
+  margin-left: -7rem;
+  transform: scale(.8);
+  -ms-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -webkit-transform: scale(.8);
+  -o-transform: scale(.8);
+}
+.com-popup.popup-qr-pc h2 {
+  margin-top: 0.3rem;
+  font-size: 0.48rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  font-weight: 900;
+}
+.com-popup.popup-qr-pc .pay-qrcode {
+  width: 13rem;
+  margin: 0 auto;
+}
+.com-popup.popup-qr-pc .qr_adv {
+  width: 5.52rem;
+  height: 7.42rem;
+}
+.com-popup.popup-qr-pc #qr_tip {
+  width: 4rem;
+  font-size: 0.28rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+.com-popup.popup-qr-pc #qr_img {
+  width: 6.52rem;
+  height: 6.52rem;
+  margin: 0 auto;
+  display: block;
+}
+.com-popup.popup-qr-pc .p-a,
+.com-popup.popup-qr-pc .p-b {
+  text-align: center;
+  font-size: 0.4rem;
+  margin: .3rem 0;
+}
+/*form 表单*/
+.com-popup .form-group {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.com-popup .form-group .form-wrap {
+  border: 2px solid #b5655c;
+  padding: 0 0.24rem;
+  background-color: #fff;
+  border-radius: 0.26rem;
+  -webkit-border-radius: 0.26rem;
+  -moz-border-radius: 0.26rem;
+  -o-border-radius: 0.26rem;
+}
+.com-popup .form-group input {
+  border: 0;
+}
+.com-popup .form-group .form-item-horizontal {
+  width: 100%;
+}
+.com-popup .form-group .form-item-horizontal .form-item {
+  width: 50%;
+  float: left;
+}
+.com-popup .form-group .form-item-horizontal input {
+  max-width: 5rem;
+}
+.com-popup .form-group .form-item {
+  height: 1.96rem;
+  line-height: 1.96rem;
+  border-bottom: 0.04rem dashed #b6645c;
+  padding-bottom: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.com-popup .form-group .form-item label {
+  font-size: 0.64rem;
+  color: rgba(0,0,0,.7);
+  vertical-align: text-bottom;
+}
+.com-popup .form-group .form-item input.flex-1 {
+  font-size: 0.64rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+.com-popup .form-group .form-item.bbn {
+  border-bottom: 0;
+}
+.com-popup .form-group .self-check {
+  float: left;
+  height: 100%;
+}
+.com-popup .form-group .self-check input[type='radio'] {
+  display: none;
+}
+.com-popup .form-group .self-check span {
+  border: 2px solid #ef2c69;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  display: block;
+  margin: 0.15rem 0;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #252525;
+}
+.com-popup .form-group .self-check.active span {
+  background-color: #ef2c69;
+  color: #fff;
+}
+.com-popup .form-group .teacherCheck span {
+  padding: .36rem .6rem;
+  margin-right: 0;
+  margin-right: 0.08rem;
+}
+.com-popup .form-group .submit-btn img {
+  width: 13.4rem;
+  height: 1.7rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.48rem;
+  border-radius: 0.54rem;
+  -webkit-border-radius: 0.54rem;
+  -moz-border-radius: 0.54rem;
+  -o-border-radius: 0.54rem;
+}
+.com-popup .form-group .pull-right {
+  float: right;
+  text-decoration: underline;
+}
+.com-popup .form-group .order-check {
+  margin-top: 0.3rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.com-popup .form-group .order-check span,
+.com-popup .form-group .order-check a {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.56rem;
+  display: inline-block;
+  color: #fff;
+}
+.com-popup .form-group .order-check span span,
+.com-popup .form-group .order-check a span {
+  color: #fff000;
+}
+.more-product {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+
+#receive_btn {
+    width: 80%;
+    padding: .2rem 0;
+    font-size: .8rem;
+    margin: .4rem auto;
+    display: block;
+    background: #e21416;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+

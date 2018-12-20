@@ -1,0 +1,94 @@
+.com-popup.com-popup-out {
+    width: 100%;
+    margin-left: -50%;
+}
+.com-popup.com-popup-out .popup-content{
+    width: 9rem;
+    height: 10.5rem;
+    margin-left: -4.5rem;
+    margin-top: 5%;
+    /*transform: scale(.9);*/
+    /*padding-bottom: 1.2rem;*/
+}
+.com-popup.com-popup-out .pop_header{
+    font-size: .5rem;
+    color: #e31b3a;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: .5rem;
+}
+.com-popup.com-popup-out .popup-content ul {
+    width: 96%;
+    margin: 0 auto;
+}
+.com-popup.com-popup-out .popup-content ul li{
+    padding: .1rem;
+    border-bottom: 1px solid #eff1f7;
+}
+.com-popup.com-popup-out .popup-content ul li a{
+    width: 100%;
+    display: table;
+    color: #111;
+    background-color: transparent;
+}
+.com-popup.com-popup-out .popup-content ul li a>* {
+    display: table-cell;
+}
+.com-popup.com-popup-out .popup-content img {
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: middle;
+}
+.com-popup.com-popup-out .pro_desc{
+    font-size: .42rem;
+    padding-left: .1rem;
+    vertical-align: middle;
+}
+.com-popup.com-popup-out .pro_desc p {
+    height: .6rem;
+    line-height: .6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.com-popup.com-popup-out .pro_desc p:last-child{
+    color: #b3b3b3;
+}
+.com-popup.com-popup-out .pop_s {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    vertical-align: middle;
+    font-size: .6rem;
+    text-align: right;
+}
+.com-popup.com-popup-out .pop_home {
+    font-size: .45rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #b3b3b3;
+    padding: .3rem;
+    cursor: pointer;
+    border-bottom: 1px solid #eff1f7;
+    background-color: transparent;
+}
+.com-popup.com-popup-out .pop_btn a{
+    width: 4rem;
+    display: block;
+    margin: .3rem auto;
+    font-size: .5rem;
+    padding: .2rem;
+    background: #e31b3a;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+@media screen and (max-width: 620px) {
+.com-popup.com-popup-out .popup-content{
+    width: 12rem;
+    margin-left: -6rem;
+    margin-top: 30%;
+}
+}

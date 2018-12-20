@@ -1,0 +1,56 @@
+/*底部*/
+footer.hh-footer {
+  padding: 0.42rem 0;
+  background-color: #a1260e;
+}
+footer .logo {
+  height: 0.96rem;
+}
+footer .logo img {
+  width: 2.34rem;
+  height: 0.96rem;
+  display: block;
+  margin: 0 auto;
+}
+footer p.f-p {
+  display: block;
+  font-size: 0.66rem;
+  text-align: center;
+  color: #fff;
+}
+footer p.f-p .span,
+footer p.f-p a {
+  color: #ecda91;
+  text-decoration: underline;
+}
+footer .hh-footer-logo {
+  position: relative;
+  margin: 0 auto;
+  width: 2.34rem;
+  height: 0.96rem;
+}
+footer .hh-footer-logo::before,
+footer .hh-footer-logo::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  height: 100%;
+  width: 4rem;
+}
+footer .hh-footer-logo::before {
+  left: -2.5rem;
+  background: url("../images/logo_l.png")/*tpa=https://yzz.nipshou.com/static/images/logo_l.png*/ no-repeat center;
+  background-size: auto 100%;
+}
+footer .hh-footer-logo::after {
+  right: -2.5rem;
+  background: url("../images/logo_r.png")/*tpa=https://yzz.nipshou.com/static/images/logo_r.png*/ no-repeat center;
+  background-size: auto 100%;
+}
+.m_beian {
+  background-color: #333333;
+  color: #fff;
+  font-size: 0.6rem;
+  text-align: center;
+  padding: .1rem 0;
+}

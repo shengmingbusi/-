@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+  background-color: #f5f5f5;
+}
+header {
+  background: #fff;
+  height: 1.4rem;
+  position: relative;
+}
+header a {
+  position: absolute;
+  top: 0;
+}
+header #home {
+  width: 1.6rem;
+  height: 1.4rem;
+  display: inline-block;
+  left: 0;
+}
+header #home svg {
+  width: 1rem;
+  height: 1.1rem;
+  margin: 0.154rem 0.3rem;
+}
+header #home path {
+  fill: #fa9a4d;
+}
+header h1 {
+  font-size: 0.7rem;
+  text-align: center;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: #fa9a4d;
+}
+header .cesuan {
+  width: 3.52rem;
+  height: 1.4rem;
+  right: 0;
+}
+header .cesuan span {
+  border-radius: 0.2rem;
+  padding: 0.16rem 0.4rem;
+  margin-top: 0.3rem;
+  font-size: 0.55rem;
+  background-color: #fa9a4d;
+  color: #fff;
+}

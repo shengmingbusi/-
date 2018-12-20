@@ -1,0 +1,922 @@
+@charset "utf-8";
+header {
+  background: #fff;
+  height: 1.4rem;
+  position: relative;
+}
+header a {
+  position: absolute;
+  top: 0;
+}
+header #home {
+  width: 1.6rem;
+  height: 1.4rem;
+  display: inline-block;
+  left: 0;
+}
+header #home svg {
+  width: 1rem;
+  height: 1.1rem;
+  margin: 0.154rem 0.3rem;
+}
+header #home path {
+  fill: #e95b87;
+}
+header h1 {
+  font-size: 0.7rem;
+  text-align: center;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  color: #e95b87;
+}
+header .cesuan {
+  width: 3.52rem;
+  height: 1.4rem;
+  right: 0;
+}
+header .cesuan span {
+  border-radius: 0.2rem;
+  padding: 0.16rem 0.4rem;
+  margin-top: 0.3rem;
+  font-size: 0.55rem;
+  background-color: #e95b87;
+  color: #fff;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.direction {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.direction img {
+  width: 14rem;
+  height: 6rem;
+  display: block;
+  margin: 0 auto;
+}
+/* m-wrap */
+.m-wrap {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.m-wrap .m-top {
+  font-size: 0.58rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  background: url("../images/re_a.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/re_a.png*/ no-repeat center top, url("../images/re_b.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/re_b.png*/ repeat-y center;
+  background-size: 100%;
+  border-bottom: 1px solid #6e2b2c;
+  background-color: #fffce6;
+}
+.m-wrap .m-content {
+  min-height: 2rem;
+  background: url("../images/re_b.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/re_b.png*/ repeat-y center, url("../images/re_c.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/re_c.png*/ no-repeat center bottom;
+  background-size: 100%;
+  background-color: #fffce6;
+  padding-bottom: 0.4rem;
+}
+.m-wrap .m-content > div.m-list-detail {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.m-wrap .m-list-detail table {
+  width: 100%;
+  box-sizing: border-box;
+  table-layout: fixed;
+  white-space: nowrap;
+  text-align: center;
+  text-indent: 0;
+  border-collapse: collapse;
+}
+.m-wrap .m-list-detail table td {
+  border: 1px solid #d9c1b7;
+  font-size: 0.5rem;
+  padding: 0.32rem 0;
+}
+.m-wrap .m-list-detail table td:first-child {
+  border-left: none;
+}
+.m-wrap .m-list-c {
+  padding: 0 0.8rem;
+}
+.m-wrap .m-list-c .m-list-til {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-align: left;
+  color: #e2171a;
+  padding-top: 0.5rem;
+}
+.m-wrap .m-list-c p {
+  font-size: 0.5rem;
+  color: #6e2b2c;
+  margin: 0.1rem 0;
+}
+.m-wrap .m-list-c p span {
+  color: #e2171a;
+}
+.m-wrap .m-list-c p:last-child {
+  font-size: 0.46rem;
+  color: #585858;
+}
+/*内容区*/
+.yy-content {
+  padding: 0.32rem;
+  background-color: #ef2c69;
+  /*用户反馈*/
+}
+.yy-content .m-wrap {
+  display: none;
+}
+.yy-content .yy-item {
+  margin-top: 0.16rem;
+}
+.yy-content .item-con {
+  margin-top: 0.12rem;
+}
+.yy-content .item-con img {
+  width: 100%;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}
+.yy-content .item-head {
+  margin-top: 0.4rem;
+  width: 13.84rem;
+  height: 2.08rem;
+}
+.yy-content h2 {
+  width: 11.44rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0.75rem;
+  background-color: #fffec7;
+  margin-left: 1.2rem;
+  text-align: center;
+  position: relative;
+  color: #d81a56;
+  margin-top: 0.56rem;
+}
+.yy-content h2 i {
+  width: 1.68rem;
+  height: 2.08rem;
+  display: block;
+  position: absolute;
+  background: url("../images/index/bk.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/index/bk.png*/ 100% 100% no-repeat;
+  background-size: contain;
+  top: -0.5rem;
+  left: -1.14rem;
+}
+.yy-content h2 span {
+  width: 0.94rem;
+  height: 1.3rem;
+  display: block;
+  background: url("../images/index/bk-01.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/index/bk-01.png*/ 100% 100% no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: -1.1rem;
+  top: 0;
+}
+.yy-content .item-con-box {
+  padding: 0.24rem;
+  background-color: #fffcda;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -o-border-radius: 0.1rem;
+}
+.yy-content .item-con {
+  padding: 0.4rem;
+  background: url("../images/result/con-bd-t.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/con-bd-t.png*/ top center no-repeat, url("../images/result/con-bd-c.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/con-bd-c.png*/ center, url("../images/result/con-bd-b.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/con-bd-b.png*/ bottom center no-repeat;
+  background-size: contain;
+}
+.yy-content .item-con h3 {
+  font-size: 0.6rem;
+  color: #ef2c69;
+}
+.yy-content .item-con .h3 {
+  text-align: center;
+  font-size: 0.64rem;
+  font-weight: bolder;
+}
+.yy-content .item-con .i-title {
+  color: #504747;
+  font-weight: bold;
+}
+.yy-content .item-con p {
+  font-size: 0.52rem;
+  color: #6e2b2c;
+  padding: .1rem;
+}
+.yy-content .font-33 {
+  font-size: 0.66rem;
+}
+.yy-content .yy-desc-content {
+  background-color: #fffce6;
+  border-radius: 0.52rem;
+  -webkit-border-radius: 0.52rem;
+  -moz-border-radius: 0.52rem;
+  -o-border-radius: 0.52rem;
+  border: 2px solid #b5655c;
+}
+/*.yy-content .yy-desc-content .comment-srcoller {*/
+  /*position: relative;*/
+  /*height: 10rem;*/
+  /*overflow: hidden;*/
+/*}*/
+.yy-content .yy-desc-content .m_pj_list {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  padding: 0 0.2rem;
+}
+.yy-content .yy-desc-content .m_pj_list li {
+  border-bottom: 1px dashed #b5655c;
+}
+.yy-content .yy-desc-content .m_pj_no {
+  color: #2d000e;
+  font-size: 0.56rem;
+  margin-bottom: 2px;
+  padding-top: 6px;
+}
+.yy-content .yy-desc-content .m_pj_content {
+  color: #ef2c69;
+  font-size: 0.5rem;
+  margin-bottom: 2px;
+  padding-top: 6px;
+}
+.main-comment-box {
+  background-color: #fffce6;
+  border-radius: 0.52rem;
+  -webkit-border-radius: 0.52rem;
+  -moz-border-radius: 0.52rem;
+  -o-border-radius: 0.52rem;
+  border: 2px solid #b5655c;
+}
+/*咨询结果*/
+.result-details {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.result-details li {
+  cursor: pointer;
+  margin-right: 0.56rem;
+  float: left;
+  width: 4.36rem;
+  height: 1.92rem;
+}
+.result-details li span {
+  margin: 0.22rem 0;
+  width: 4.36rem;
+  height: 1.48rem;
+  text-align: center;
+  line-height: 1.48rem;
+  color: #fff;
+  background: url("../images/result/til-bk-2.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/til-bk-2.png*/ no-repeat 100% 100%;
+  background-size: contain;
+  display: block;
+  font-size: 0.66rem;
+}
+.result-details li.active span {
+  color: #f00;
+  background-image: url("../images/result/til-bk-1.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/til-bk-1.png*/;
+}
+.result-details li:nth-child(3n) {
+  margin-right: 0;
+}
+/*form 表单*/
+.form-group {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.form-group .form-wrap {
+  border: 2px solid #b5655c;
+  padding: 0 0.24rem;
+  background-color: #fff;
+  border-radius: 0.26rem;
+  -webkit-border-radius: 0.26rem;
+  -moz-border-radius: 0.26rem;
+  -o-border-radius: 0.26rem;
+}
+.form-group input {
+  border: 0;
+}
+.form-group .form-item-horizontal {
+  width: 100%;
+}
+.form-group .form-item-horizontal .form-item {
+  width: 50%;
+  float: left;
+}
+.form-group .form-item-horizontal input {
+  max-width: 5rem;
+}
+.form-group .form-item {
+  height: 1.96rem;
+  line-height: 1.96rem;
+  border-bottom: 0.04rem dashed #f580a5;
+  padding-bottom: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form-group .form-item label {
+  font-size: 0.64rem;
+  color: #ef2c69;
+  vertical-align: text-bottom;
+}
+.form-group .form-item input.flex-1 {
+  font-size: 0.64rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+.form-group .form-item.bbn {
+  border-bottom: 0;
+}
+.form-group .self-check {
+  float: left;
+  height: 100%;
+}
+.form-group .self-check input[type='radio'] {
+  display: none;
+}
+.form-group .self-check span {
+  border: 2px solid #ef2c69;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  display: block;
+  margin: 0.15rem 0;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+  color: #252525;
+}
+.form-group .self-check.active span {
+  background-color: #ef2c69;
+  color: #fff;
+}
+.form-group .teacherCheck span {
+  padding: .36rem .6rem;
+  margin-right: 0;
+  margin-right: 0.08rem;
+}
+.form-group .submit-btn img {
+  width: 13.4rem;
+  height: 1.7rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.48rem;
+  border-radius: 0.54rem;
+  -webkit-border-radius: 0.54rem;
+  -moz-border-radius: 0.54rem;
+  -o-border-radius: 0.54rem;
+}
+.form-group .pull-right {
+  float: right;
+  text-decoration: underline;
+}
+.form-group .order-check {
+  margin-top: 0.3rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.form-group .order-check span,
+.form-group .order-check a {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.56rem;
+  display: inline-block;
+  color: #fff;
+}
+.form-group .order-check span span,
+.form-group .order-check a span {
+  color: #fff000;
+}
+.more-product {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.more-product .h2-title {
+   font-size: 0.7rem;
+  color: #fff267;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.more-product .h2-title span {
+  position: relative;
+}
+.more-product .h2-title span:before,
+.more-product .h2-title span:after {
+  content: '';
+  width: 0.34rem;
+  height: 0.24rem;
+  display: block;
+  position: absolute;
+  top: 0.16rem;
+  background: url("../images/result/re.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/result/re.png*/ 100% 100% no-repeat;
+  background-size: contain;
+}
+.more-product .h2-title span:before {
+  left: -0.6rem;
+}
+.more-product .h2-title span:after {
+  right: -0.6rem;
+}
+.more-product .compage-title {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0.56rem;
+  padding: 0;
+}
+.more-product .compage-title span {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  background-color: #e5af49;
+  font-size: 0.56rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+}
+.more-product p {
+  font-size: 0.42rem;
+  padding: 0.4rem 0.8rem;
+  text-indent: 2em;
+  text-align: justify;
+}
+.more-product .hot-app {
+  width: 13.4rem;
+  margin: 0 0.8rem;
+  padding-bottom: 0.48rem;
+}
+.more-product .hot-app li {
+  width: 3.35rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.more-product .hot-app li a {
+  width: 100%;
+  display: block;
+}
+.more-product .hot-app li img {
+  width: 2.88rem;
+  height: 2.88rem;
+  margin-left: 0.235rem;
+}
+.more-product .hot-app li span {
+  color: #fff;
+  font-size: 0.55rem;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.more-product .hh-precious li {
+  float: left;
+  width: 45.2%;
+  margin-left: 3.2%;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.more-product .hh-precious li > a {
+  display: block;
+}
+.more-product .hh-precious li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.more-product .hh-precious li p {
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+}
+.more-product .hh-precious li .p-a {
+  font-size: 0.66rem;
+  color: #f8dc7e;
+  margin-top: 0.3rem;
+}
+.more-product .hh-precious li .p-b {
+  font-size: 0.5rem;
+  color: #fff;
+  margin-top: 0.24rem;
+}
+.more-product .hh-precious li .span-btn {
+  position: relative;
+  display: block;
+  width: 5.92rem;
+  margin: 0.6rem auto;
+}
+.more-product .hh-precious li .span-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.3rem;
+  border-radius: 0.2rem;
+  background: #a68414;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f8dc7e), to(#947611));
+  background-image: linear-gradient(180deg, #f8dc7e 50%, #947611);
+}
+.more-product .hh-precious li .span-btn > span {
+  display: block;
+  background: #f8dc7e;
+  color: #f00;
+  font-size: 0.66rem;
+  width: 5.92rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  position: relative;
+  top: -3px;
+}
+/*底部*/
+footer {
+  padding: 0.42rem 0;
+  background-color: #b31446;
+}
+footer .logo {
+  height: 0.96rem;
+}
+footer .logo img {
+  width: 2.34rem;
+  height: 0.96rem;
+  display: block;
+  margin: 0 auto;
+}
+footer p.f-p {
+  display: block;
+  font-size: 0.66rem;
+  text-align: center;
+  color: #fff;
+}
+footer p.f-p .span,
+footer p.f-p a {
+  color: #ecda91;
+  text-decoration: underline;
+}
+footer .hh-footer-logo {
+  position: relative;
+  margin: 0 auto;
+  width: 2.34rem;
+  height: 0.96rem;
+}
+footer .hh-footer-logo::before,
+footer .hh-footer-logo::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  height: 100%;
+  width: 4rem;
+}
+footer .hh-footer-logo::before {
+  left: -2.5rem;
+  background: url("../images/logo_l.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/logo_l.png*/ no-repeat center;
+  background-size: auto 100%;
+}
+footer .hh-footer-logo::after {
+  right: -2.5rem;
+  background: url("../images/logo_r.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/logo_r.png*/ no-repeat center;
+  background-size: auto 100%;
+}
+/* 弹窗 */
+.com-popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  width: 15rem;
+  margin-left: -7.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  /*支付确认信息弹窗*/
+  /*支付确认信息弹窗 2 */
+  /*支付弹框*/
+}
+.com-popup .popup-main {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.com-popup .popup-fade {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.com-popup .popup-content {
+  border: 1px solid #ba660c;
+  background: #e2e2e2;
+  border-radius: .14rem;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  width: 10rem;
+  height: 5rem;
+  left: 50%;
+  margin-left: -5rem;
+  margin-top: 50%;
+}
+.com-popup .popup-content .quit-tip {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.48rem;
+  line-height: 1.4;
+}
+.com-popup .popup-content .quit-btn-group {
+  margin-top: .3rem;
+}
+.com-popup .popup-content .quit-btn-group a {
+  width: 3rem;
+  height: 1.2rem;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 1.4rem;
+  background-color: #ba660c;
+  font-size: 0.48rem;
+  color: #fff;
+  border-radius: 0.1rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -o-border-radius: 0.1rem;
+  -webkit-box-shadow: 0 2px 6px -2px #000000;
+  box-shadow: 0 2px 6px -2px #000000;
+  margin-left: 1rem;
+}
+.com-popup .popup-content .quit-btn-group a:first-child {
+  float: right;
+  margin-right: 1rem;
+}
+.com-popup .close-btn {
+  position: absolute;
+  top: -1rem;
+  right: 0;
+  width: .8rem;
+  height: .8rem;
+  background: url("../images/index/close_btn.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/index/close_btn.png*/ no-repeat center;
+  background-size: .8rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.com-popup .popup-main .pay {
+  width: 12.9rem;
+  height: 12.16rem;
+  top: 50%;
+  margin-left: -6.45rem;
+  margin-top: -6.08rem;
+}
+.com-popup .form-group {
+  padding: 0;
+}
+.com-popup .form-group .form-wrap {
+  border: 0;
+}
+.com-popup .form-group a[type='submit'] {
+  width: 10.12rem;
+  height: 1.7rem;
+  font-size: 0.72rem;
+  margin: 1.06rem auto;
+  border-radius: 0.06rem;
+  -webkit-border-radius: 0.06rem;
+  -moz-border-radius: 0.06rem;
+  -o-border-radius: 0.06rem;
+  display: block;
+  background-color: #ddd;
+  color: #333;
+  text-align: center;
+  line-height: 1.7rem;
+}
+.com-popup .pay-form-popup .form-item label,
+.com-popup .pay-form-popup .form-item input {
+  font-size: 0.52rem !important;
+}
+.com-popup .popup-tip {
+  font-size: 0.56rem;
+  padding: 0.46rem 1rem;
+  text-align: center;
+  color: #811b02;
+  background-color: #fdf9de;
+  border-radius: .14rem .14rem 0 0;
+}
+.com-popup .p-s-img {
+  width: 12.48rem;
+  height: 6.4rem;
+  display: block;
+  margin: 0 auto;
+}
+.com-popup .pay-success {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -6.24rem;
+  margin-top: -3.2rem;
+  z-index: 10;
+}
+.com-popup .pay-success a {
+  position: absolute;
+  bottom: 2rem;
+  left: 2.2rem;
+  width: 3.34rem;
+  height: 1.12rem;
+  display: inline-block;
+  background: url("../images/pay/btn3.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/pay/btn3.png*/ no-repeat 100% 100%;
+  background-size: contain;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+.com-popup .pay-success a:last-child {
+  bottom: 2rem;
+  left: 6.74rem;
+  background-image: url("../images/pay/btn2.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/pay/btn2.png*/;
+}
+.com-popup.popup-qr-pc .popup-content {
+  width: 14rem;
+  height: 11.8rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -5.9rem;
+  margin-left: -7rem;
+  transform: scale(.8);
+  -webkit-transform: scale(.8);
+}
+.com-popup.popup-qr-pc h2 {
+  margin-top: 0.3rem;
+  font-size: 0.48rem;
+  padding: 0.4rem 0;
+  text-align: center;
+  font-weight: 900;
+}
+.com-popup.popup-qr-pc .pay-qrcode {
+  width: 13rem;
+  margin: 0 auto;
+}
+.com-popup.popup-qr-pc .qr_adv {
+  width: 5.52rem;
+  height: 7.42rem;
+}
+.com-popup.popup-qr-pc #qr_tip {
+  width: 4rem;
+  font-size: 0.28rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+.com-popup.popup-qr-pc #qr_img {
+  width: 6.52rem;
+  height: 6.52rem;
+  margin: 0 auto;
+  display: block;
+}
+.com-popup.popup-qr-pc .p-a,
+.com-popup.popup-qr-pc .p-b {
+  text-align: center;
+  font-size: 0.4rem;
+  margin: .3rem 0;
+}
+.com-popup .pay-btn-box {
+  width: 12.4rem;
+  margin: 0.24rem auto 0.64rem;
+}
+.com-popup a {
+  width: 100%;
+  height: 1.6rem;
+  display: inline-block;
+  margin: 0.24rem 0;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  background-color: #6cb332;
+  font-size: 0.66rem;
+  color: #fff;
+}
+.com-popup a i {
+  width: 0.96rem;
+  height: 0.96rem;
+  display: inline-block;
+  background: url("../images/pay_wx.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/pay_wx.png*/ no-repeat;
+  background-size: contain;
+  margin-left: 2.74rem;
+  margin-top: 0.32rem;
+  vertical-align: middle;
+}
+.com-popup a span {
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: sub;
+  margin-left: 1.12rem;
+}
+.com-popup a:last-child {
+  background-color: #09f;
+}
+.com-popup a:last-child i {
+  width: 1.16rem;
+  background-image: url("../images/pay_al.png")/*tpa=https://yzz.nipshou.com/static/yfddp/images/pay_al.png*/;
+}
+.com-popup a:last-child span {
+  margin-left: 0.6rem;
+}
+.com-popup .yy-pay-desc {
+  width: 13.84rem;
+  padding: 0.72rem 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -6.92rem;
+  margin-top: -7.82rem;
+  z-index: 10;
+  transform: scale(.69);
+  -webkit-transform: scale(.69);
+}
+.com-popup .yy-pay-desc img {
+  display: block;
+  margin: 0 auto 0;
+  width: 3.54rem;
+  height: 3.54rem;
+}
+.com-popup .yy-pay-desc .master-name {
+  margin-top: 0.36rem;
+  font-size: 0.58rem;
+  color: #141414;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .price {
+  margin-top: 0.56rem;
+  font-size: 0.92rem;
+  text-align: center;
+  color: #b60909;
+}
+.com-popup .yy-pay-desc .old-price {
+  text-decoration: line-through;
+  font-size: 0.54rem;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .pay-help {
+  padding: 0 0.6rem;
+  font-size: 0.46rem;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .pay-help span {
+  color: #ba660c;
+}
+.public_test_fixed {
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+  display: block;
+  width: 15rem;
+  height: 1.86rem;
+  background: rgba(0, 0, 0, 0.3);
+  left: 50%;
+  margin-left: -7.5rem;
+}
+.public_test_fixed img {
+  width: 13.4rem;
+  height: 1.7rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  margin-top: 0.08rem;
+  margin-left: 0.48rem;
+}
+.m_beian {
+  background-color: #333333;
+  color: #fff;
+  font-size: 0.3rem;
+  text-align: center;
+  padding: .1rem 0;
+}
+.dis-table {
+  display: table;
+}
+.dis-table > div {
+  display: table-cell;
+  vertical-align: top;
+}
+.content-box {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

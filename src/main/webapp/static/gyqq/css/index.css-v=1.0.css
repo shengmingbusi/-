@@ -1,0 +1,594 @@
+html,
+body {
+  height: 100%;
+}
+#Home {
+  background: url("../images/re_bg.jpg-v=1.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/re_bg.jpg?v=1*/ no-repeat top center;
+  background-size: 100% 100%;
+  position: relative;
+  background-color: #c80708;
+}
+#Home.result_box {
+  background-image: none;
+  background-color: #eee7dd;
+}
+#Home.pay_box {
+  background-image: url("../images/pay_bg4.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/pay_bg4.jpg*/;
+  background-size: 100% auto;
+}
+/* 弹窗 */
+.com-popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  width: 16rem;
+  margin-left: -8rem;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  /*支付确认信息弹窗*/
+  /*支付弹框*/
+}
+.com-popup .popup-main {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.com-popup .popup-fade {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.com-popup .popup-content {
+  border: 1px solid #ba660c;
+  background: #e2e2e2;
+  border-radius: .14rem;
+  position: relative;
+  z-index: 10;
+  background: #fff;
+  width: 12.5rem;
+  height: 6.25rem;
+  left: 50%;
+  margin-left: -6.25rem;
+  margin-top: 50%;
+}
+.com-popup .popup-content .quit-tip {
+  padding-top: 1.25rem;
+  text-align: center;
+  font-size: 0.6rem;
+  line-height: 1.4;
+}
+.com-popup .popup-content .quit-btn-group {
+  margin-top: .3rem;
+}
+.com-popup .popup-content .quit-btn-group a {
+  width: 3.75rem;
+  height: 1.5rem;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 1.75rem;
+  background-color: #ba660c;
+  font-size: 0.6rem;
+  color: #fff;
+  border-radius: 0.125rem;
+  -webkit-border-radius: 0.125rem;
+  -moz-border-radius: 0.125rem;
+  -o-border-radius: 0.125rem;
+  -webkit-box-shadow: 0 2px 6px -2px #000000;
+  box-shadow: 0 2px 6px -2px #000000;
+  margin-left: 1.25rem;
+}
+.com-popup .popup-content .quit-btn-group a:first-child {
+  float: right;
+  margin-right: 1.25rem;
+}
+.com-popup .close-btn {
+  position: absolute;
+  top: -1.4rem;
+  right: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url("../images/close_btn.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/close_btn.png*/ no-repeat center;
+  background-size: 1.2rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.com-popup .popup-main .pay {
+  width: 16.125rem;
+  height: 15.2rem;
+  top: 50%;
+  margin-left: -8.0625rem;
+  margin-top: -7.6rem;
+}
+.com-popup .form-group {
+  padding: 0;
+}
+.com-popup .form-group .form-wrap {
+  border: 0;
+}
+.com-popup .form-group input[type='submit'] {
+  width: 12.65rem;
+  height: 2.125rem;
+  font-size: 0.9rem;
+  margin: 1.325rem auto;
+  border-radius: 0.075rem;
+  -webkit-border-radius: 0.075rem;
+  -moz-border-radius: 0.075rem;
+  -o-border-radius: 0.075rem;
+  display: block;
+}
+.com-popup .pay-form-popup .form-item label,
+.com-popup .pay-form-popup .form-item input {
+  font-size: 0.65rem !important;
+}
+.com-popup .popup-tip {
+  font-size: 0.7rem;
+  padding: 0.575rem 1.25rem;
+  text-align: center;
+  color: #811b02;
+  background-color: #fdf9de;
+  border-radius: .14rem .14rem 0 0;
+}
+.com-popup.popup-qr-pc .popup-content {
+  width: 15rem;
+  height: 14.75rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -7.375rem;
+  margin-left: -7.5rem;
+  -webkit-transform: scale(0.86);
+  transform: scale(0.86);
+}
+.com-popup.popup-qr-pc h2 {
+  margin-top: 0.375rem;
+  font-size: 0.6rem;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-weight: 900;
+}
+.com-popup.popup-qr-pc .pay-qrcode {
+  width: 14.75rem;
+  margin: 0 auto;
+}
+.com-popup.popup-qr-pc .pay-qrcode > div {
+  float: left;
+}
+.com-popup.popup-qr-pc .qr_adv {
+  width: 6.9rem;
+  height: 9.275rem;
+}
+.com-popup.popup-qr-pc #qr_tip {
+  width: 5rem;
+  font-size: 0.35rem;
+  margin-left: 1.25rem;
+  text-align: center;
+}
+.com-popup.popup-qr-pc #qr_img {
+  width: 7.25rem;
+  height: 8rem;
+  margin: 0 auto;
+  display: block;
+}
+.com-popup.popup-qr-pc .p-a,
+.com-popup.popup-qr-pc .p-b {
+  text-align: center;
+  font-size: 0.5rem;
+  margin: .3rem 0;
+}
+.com-popup .pay-btn-box {
+  width: 15.5rem;
+  margin: 0.3rem auto 0.8rem;
+}
+.com-popup a {
+  width: 100%;
+  height: 2rem;
+  display: inline-block;
+  margin: 0.3rem 0;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  background-color: #6cb332;
+  font-size: 0.825rem;
+  color: #fff;
+}
+.com-popup a i {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  background: url("../images/pay_wx.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/pay_wx.png*/ no-repeat;
+  background-size: contain;
+  margin-left: 3.425rem;
+  margin-top: 0.4rem;
+  vertical-align: middle;
+}
+.com-popup a span {
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: sub;
+  margin-left: 1.4rem;
+}
+.com-popup a:last-child {
+  background-color: #09f;
+}
+.com-popup a:last-child i {
+  width: 1.45rem;
+  background-image: url("../images/pay_al.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/pay_al.png*/;
+}
+.com-popup a:last-child span {
+  margin-left: 0.75rem;
+}
+.com-popup .yy-pay-desc {
+  width: 17.3rem;
+  padding: 0.9rem 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8.65rem;
+  margin-top: -5.625rem;
+  z-index: 10;
+  border-radius: 20px;
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+}
+.com-popup .yy-pay-desc img {
+  display: block;
+  margin: 0 auto 0;
+  width: 4.425rem;
+  height: 4.425rem;
+}
+.com-popup .yy-pay-desc .master-name {
+  margin-top: 0.45rem;
+  font-size: 0.725rem;
+  color: #141414;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .price {
+  margin-top: 0.7rem;
+  font-size: 1.15rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #b60909;
+}
+.com-popup .yy-pay-desc .old-price {
+  text-decoration: line-through;
+  font-size: 0.675rem;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .pay-help {
+  padding: 0 0.75rem;
+  font-size: 0.575rem;
+  text-align: center;
+}
+.com-popup .yy-pay-desc .pay-help span {
+  color: #ba660c;
+}
+/*首页样式*/
+.measure {
+  width: 8.5rem;
+  height: 1.25rem;
+  display: block;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 50%;
+  margin-left: -4.25rem;
+  background: url("../images/btn.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/btn.png*/ 100% 100% no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+/*首页按钮*/
+.btn-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #e71b1b;
+}
+.btn-box > a {
+  width: 50%;
+  height: 2.5rem;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  font-size: 0.825rem;
+  line-height: 2.5rem;
+}
+.btn-box > a i {
+  width: 0.6rem;
+  height: 1.675rem;
+  display: inline-block;
+  background: url("../images/divination1.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/divination1.png*/ no-repeat 100% 100%;
+  background-size: contain;
+  vertical-align: middle;
+}
+.btn-box > a > i {
+  margin-left: 1.25rem;
+}
+.btn-box > a:last-child i {
+  width: 1rem;
+  background-image: url("../images/user.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/user.png*/;
+  margin-top: -0.25rem;
+}
+.btn-box > a span {
+  vertical-align: middle;
+  padding-left: 0.25rem;
+  color: #fff;
+}
+.btn-box > a.checked span {
+  color: #fce004;
+}
+/*结果页样式*/
+#firstPage {
+  background: url("../images/result_bg.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/result_bg.jpg*/ no-repeat top center;
+  background-size: contain;
+}
+.result_til {
+  position: absolute;
+  width: 11.81866667rem;
+  height: 2.77333333rem;
+  top: 0.32rem;
+  left: 50%;
+  margin-left: -5.90933333rem;
+  background: url("../images/result_til.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/result_til.png*/ no-repeat 100% 100%;
+  background-size: contain;
+}
+.result_con1 h3 {
+  position: absolute;
+  top: 24.4%;
+  /*left: 22%;*/
+  right:52%;
+  font-size: 0.85rem;
+  color: #c80808;
+}
+.result_con1 a.explain {
+  position: absolute;
+  width: 6.50666667rem;
+  height: 2.34666667rem;
+  background: url("../images/result_divination1.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/result_divination1.png*/ no-repeat 100% 100%;
+  background-size: contain;
+  top: 41.5%;
+  left: 50%;
+  margin-left: -3.25333333rem;
+}
+.result_con1 p.pay_desc {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 58.5%;
+  font-size: 0.768rem;
+  color: #c80808;
+}
+#secondPage {
+  width: 100%;
+  background: url("../images/res_t.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/res_t.jpg*/ no-repeat top center, url("../images/res_b.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/res_b.jpg*/ no-repeat center bottom, url("../images/res_c.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/res_c.jpg*/ repeat-y center;
+  background-size: contain;
+}
+#secondPage .reult_sign {
+  padding-top: 7.25333333rem;
+  padding-bottom: 6.82666667rem;
+}
+#secondPage .reult_sign .sign_title {
+  font-size: 0.98133333rem;
+  text-align: center;
+  color: #c80808;
+  font-weight: bold;
+}
+#secondPage .reult_sign .sign_poetry {
+  font-size: 0.72533333rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.85333333rem;
+}
+#secondPage .reult_sign .sign_poetry span {
+  text-align: justify;
+  display: inline-block;
+  margin-left: 0.42666667rem;
+}
+#secondPage .reult_sign .sign_con_til {
+  font-size: 0.68266667rem;
+  text-align: center;
+  margin-top: 0.74666667rem;
+  color: #b81f23;
+}
+#secondPage .reult_sign p {
+  padding: 0 15%;
+  font-size: 0.64rem;
+  text-align: justify;
+  margin-left: 0.32rem;
+  margin-top: 0.42666667rem;
+}
+/*求签页*/
+.avalokitesvara {
+  width: 5.29066667rem;
+  height: 14.63466667rem;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  margin-left: -2.688rem;
+}
+.avalokitesvara img {
+  width: 5.29066667rem;
+  height: 14.63466667rem;
+}
+.sign_box {
+  width: 7.296rem;
+  height: 7.53066667rem;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  margin-left: -3.6rem;
+  cursor: pointer;
+}
+.sign_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7.296rem;
+  height: 7.53066667rem;
+  display: none;
+}
+.divination {
+  width: 5.58933333rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 50%;
+  margin-left: -2.79466667rem;
+}
+.divination div img {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+.divination div span {
+  vertical-align: middle;
+  font-size: 0.72533333rem;
+  color: #fff;
+  padding-left: 0.42666667rem;
+}
+.divination > p {
+  width: 5.58933333rem;
+  height: 1.06666667rem;
+  display: none;
+  text-align: center;
+  font-size: 0.72533333rem;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sign {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.sign img {
+  position: absolute;
+  width: 2.56rem;
+  height: 17.06666667rem;
+  left: 50%;
+  top: 15%;
+  margin-left: -1.28rem;
+}
+.Home_cover {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/pay_bg2.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/pay_bg2.jpg*/ no-repeat top center;
+  background-size: 100% auto;
+  position: relative;
+}
+.Home_cover1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("../images/bg.jpg")/*tpa=https://yzz.nipshou.com/static/gyqq/images/bg.jpg*/ no-repeat top center;
+    background-size: 100% 100%;
+}
+.more-product {
+  padding: 0.425rem 0.375rem 0 0.375rem;
+  background-color: #ef2c69;
+}
+.more-product .h2-title {
+  font-size: 0.7rem;
+  color: #fff267;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.more-product .h2-title span {
+  position: relative;
+  font-size: 0.8rem;
+}
+.more-product .h2-title span:before,
+.more-product .h2-title span:after {
+  content: '';
+  width: 0.425rem;
+  height: 0.3rem;
+  display: block;
+  position: absolute;
+  top: 0.2rem;
+  background: url("../images/result/re.png")/*tpa=https://yzz.nipshou.com/static/gyqq/images/result/re.png*/ 100% 100% no-repeat;
+  background-size: contain;
+}
+.more-product .h2-title span:before {
+  left: -0.75rem;
+}
+.more-product .h2-title span:after {
+  right: -0.75rem;
+}
+.more-product .compage-title {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0.7rem;
+  padding: 0;
+}
+.more-product .compage-title span {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -o-border-radius: 0.625rem;
+  background-color: #e5af49;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 1.25rem;
+  color: #fff;
+}
+.more-product p {
+  font-size: 0.525rem;
+  padding: 0.5rem 1rem;
+  text-indent: 2em;
+  text-align: justify;
+}
+.more-product .hot-app {
+  width: 16.75rem;
+  margin: 0 1rem;
+  padding-bottom: 0.6rem;
+}
+.more-product .hot-app li {
+  width: 4.1875rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.more-product .hot-app li a {
+  width: 100%;
+  display: block;
+}
+.more-product .hot-app li img {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-left: 0.29375rem;
+  margin-bottom: -0.375rem;
+}
+.more-product .hot-app li span {
+  color: #fff;
+  font-size: 0.75rem;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.content-box {
+  padding: 0.425rem 0.375rem 0 0.375rem;
+  background-color: #ef2c69;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

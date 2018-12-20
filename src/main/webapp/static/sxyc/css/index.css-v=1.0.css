@@ -1,0 +1,1065 @@
+/*头部底部样式重置*/
+.top-header {
+    border: 0
+}
+
+.top-header .tle {
+    color: #c2414f
+}
+
+.top-header .rt {
+    background-color: #b41526
+}
+
+.home-icon path {
+    fill: #c2414f
+}
+
+.hh-footer {
+    background-color: #9f1616
+}
+
+.main-wrap {
+    background-color: #e61b1b
+}
+
+/*内容区域样式*/
+.main-wrap {
+    background: url("../images/bg.jpg")/*tpa=https://yzz.nipshou.com/static/sxyc/images/bg.jpg*/ 100% 100%;
+    background-size: contain;
+}
+
+.content-intr {
+    padding: 0 1rem;
+}
+
+.zodiac-desc .desc {
+    width: 100%;
+    height: 18.8rem;
+    background: url("../images/desc_l.jpg")/*tpa=https://yzz.nipshou.com/static/sxyc/images/desc_l.jpg*/ left center no-repeat,
+    url("../images/desc_r.jpg")/*tpa=https://yzz.nipshou.com/static/sxyc/images/desc_r.jpg*/ right center no-repeat,
+    url("../images/desc_c.jpg")/*tpa=https://yzz.nipshou.com/static/sxyc/images/desc_c.jpg*/ repeat-x;
+    background-size: contain;
+    display: table;
+}
+
+.zodiac-desc p {
+    /*display: table-cell;*/
+    vertical-align: middle;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/* 表单区 */
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    color: #c00a0a
+}
+
+.form-group label input {
+    color: #8b8b8b
+}
+
+.form-group .form-item:last-child {
+    padding-bottom: .3rem;
+}
+
+.main-form .submit-btn {
+    width: 100%;
+}
+
+.self-check div {
+    border-color: #c00a0a;
+    color: #252525;
+    border-radius: .4rem;
+}
+
+.self-check input:checked ~ div {
+    background-color: #c00a0a;
+}
+
+.main-form .order-check span {
+    color: #fff;
+}
+
+.main-form .order-check span span {
+    color: #ffed2a
+}
+
+.main-form .order-check a {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* 内容区 */
+.sx-desc {
+    padding: 1rem;
+    background-color: #fae7bd;
+    border-radius: .4rem;
+}
+
+.sx-desc img.header-img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sx-desc-content {
+    width: 96%;
+    margin: 1rem auto 0;
+    position: relative;
+}
+
+.sx-desc-content p {
+    position: absolute;
+    top: 1rem;
+    right: .5rem;
+    width: 67%;
+}
+
+.sx-desc-intr {
+    margin-top: 2rem;
+}
+
+.sx-intr {
+    margin-top: 1rem;
+}
+
+.bz-desc-content {
+    background: #fae7bd;
+    border: 0;
+    padding-top: 2rem;
+}
+
+.comment-srcoller {
+    background-color: #fae7bd;
+    /*height: 350px;*/
+}
+
+.m_pj_no {
+    color: #d84c4b;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.m_pj_list li {
+    border-bottom-color: #cb8b72;
+    padding: 16px 0;
+}
+
+.m_pj_content {
+    font-size: 1.3rem;
+    padding: 0 .8rem 6px 0;
+}
+
+/*悬浮框*/
+.public_test_fixed {
+    position: fixed;
+    bottom: 0;
+    z-index: 39;
+    max-width: 640px;
+    max-height: 80px;
+}
+
+.public_test_fixed img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/*.hh-footer {padding-bottom: 0}*/
+
+/* 支付模块 */
+.zodiac-desc-pay {
+    background-color: #faf5be;
+    margin: 1.3rem;
+    padding: .21rem;
+    border-radius: 5px;
+}
+
+.pay-content {
+    background: #faf5be;
+    margin: .8rem;
+    position: relative;
+    border: 2px solid #e60012;
+}
+
+.pay-content .bk-box i {
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../images/pay/pay01.jpg")/*tpa=https://yzz.nipshou.com/static/sxyc/images/pay/pay01.jpg*/;
+    position: absolute;
+}
+
+.pay-content .bk-box i:nth-child(1) {
+    top: -2px;
+    left: -2px
+}
+
+.pay-content .bk-box i:nth-child(2) {
+    top: -2px;
+    right: -2px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+    -o-transform: rotate(90deg); /* Opera */
+}
+
+.pay-content .bk-box i:nth-child(3) {
+    bottom: -2px;
+    right: -2px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -moz-transform: rotate(180deg); /* Firefox */
+    -webkit-transform: rotate(180deg); /* Safari 和 Chrome */
+    -o-transform: rotate(180deg); /* Opera */
+}
+
+.pay-content .bk-box i:nth-child(4) {
+    bottom: -2px;
+    left: -2px;
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -webkit-transform: rotate(270deg); /* Safari 和 Chrome */
+    -o-transform: rotate(270deg); /* Opera */
+}
+
+.zodiac-desc-pay .payer-info .info-left {
+    width: 56%;
+    float: left;
+}
+
+.zodiac-desc-pay .payer-info .info-right {
+    width: 44%;
+    float: left;
+}
+
+.payer-info .info-left .header-pic {
+    width: 6rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    float: right;
+}
+
+.payer-info .info-left .header-pic img {
+    display: block;
+    border-radius: 50%;
+}
+
+.payer-info .info-left .header-pic p {
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: .5rem;
+}
+
+.payer-info .info-left img.sxsx-pic {
+    width: 2rem;
+    display: block;
+    float: right;
+    margin-top: 2.5rem;
+}
+
+.payer-info .info-left .payer-message {
+    float: left;
+}
+
+.payer-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.payer-font {
+    margin-left: .3rem;
+    color: #565656;
+    float: right;
+    width: 12rem;
+    margin-top: .3rem;
+}
+
+.payer-info .info-right img {
+    width: 8rem;
+    height: 8rem;
+    margin: 3.5rem 0 0 .6rem;
+}
+
+.pay-content .pay-price {
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    color: #b60909;
+}
+
+.pay-content .pay-price p:last-child {
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #7c7c7b;
+}
+
+.pay-btn {
+    height: 4rem;
+}
+
+.zodiac-desc-pay .paid-desc {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.zodiac-paid img {
+    width: 85%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.zodiac-paid .paid-get img {
+    width: 96%;
+    margin: 1rem auto;
+}
+
+.locked {
+    width: 96%;
+    margin: 0 auto;
+    background: #faf5be;
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.locked span {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.locked i {
+    background: url("../images/pay/pay09.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/pay/pay09.png*/ 100% 100% no-repeat;
+    width: 2.2rem;
+    height: 2rem;
+    display: block;
+    float: right;
+    margin-right: 1rem;
+    background-size: contain;
+    margin-top: 1rem;
+}
+
+/*结果页 result*/
+.h2-title.bz-h2-title span::before, .h2-title.bz-h2-title span::after {
+    background-image: url("../images/res/title_tag.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/title_tag.png*/;
+}
+
+.h2-title.bz-h2-title span {
+    color: #fff267;
+}
+
+.hh-precious li .p-a {
+    color: #fff267;
+}
+
+.hh-precious li .p-b {
+    color: #fff;
+}
+
+.hh-precious li .span-btn > span {
+    color: #f00;
+}
+
+.hot-app li a {
+    color: #fff;
+}
+
+.result-info h2 span {
+    width: 75%;
+    margin: .3rem auto 0;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    height: 3rem;
+    position: relative;
+    background-color: #ca1915;
+    border-top: 2px solid #fcbb28;
+    border-bottom: 2px solid #fcbb28;
+    line-height: 3rem;
+    color: #feec31;
+}
+
+.result-info h2 span:before, .result-info h2 span:after {
+    content: '';
+    width: 4.65rem;
+    height: 3rem;
+    display: block;
+    position: absolute;
+}
+
+.result-info h2 span:before {
+    background: url("../images/res/res_t_01.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/res_t_01.png*/ 100% 100% no-repeat;
+    background-size: contain;
+    top: -2px;
+    left: -20px;
+}
+
+.result-info h2 span:after {
+    background: url("../images/res/res_t_02.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/res_t_02.png*/ 100% 100% no-repeat;
+    background-size: contain;
+    top: -2px;
+    right: 0
+}
+
+.result-info p.ranking {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.result-info .measure_index {
+    padding: 1rem .6rem;
+}
+
+.result-info .measure_index li {
+    width: 50%;
+    float: left;
+    color: #d84c4b;
+    font-size: 1.2rem;
+}
+
+.result-info .measure_index li span {
+    float: left;
+}
+
+.result-info .measure_index li i {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    float: left;
+    background: url("../images/res/xing_01.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/xing_01.png*/ 100% 100% no-repeat;
+    background-size: contain;
+}
+
+.result-info .measure_index li i.all_star {
+    background-image: url("../images/res/xing_01.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/xing_01.png*/;
+}
+
+.result-info .measure_index li i.half_star {
+    background-image: url("../images/res/xing_02.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/xing_02.png*/;
+}
+
+.result-info .measure_index li i.empty_star {
+    background-image: url("../images/res/xing_03.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/xing_03.png*/;
+}
+
+.result-info p.result_desc {
+    padding: 0 .8rem 2rem;
+}
+
+.res-btns li > span {
+    color: #e0d743;
+}
+
+.res-btns li.active > span {
+    color: #f00;
+}
+
+.result-tabs .m-wrap {
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fcf9d6;
+    position: relative;
+}
+
+.result-tabs .wrap-box {
+    display: table;
+}
+
+.result-tabs .wrap-box h2 {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #ca1915;
+    display: table-caption;
+    font-size: 1.6rem;
+}
+
+.result-tabs .wrap-box .img-box {
+    width: 12rem;
+    display: table-cell;
+    padding-bottom: .3rem;
+}
+
+.result-tabs .wrap-box .content-box {
+    margin-left: 12rem;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.result-tabs .wrap-box .content-box p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.result-tabs .result-tabs .measure_index {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.zodiac-month {
+    margin: 1.3rem;
+    padding: 1rem;
+    background-color: #faf5be;
+    border-radius: 5px;
+}
+
+.zodiac-month .month-header {
+    height: 5rem;
+    background: #ca1915;
+    border: 2px solid #ca1915;
+    border-radius: .4rem .4rem 0 0;
+}
+
+.zodiac-month .month-header div {
+    float: left;
+    height: 5rem;
+}
+
+.zodiac-month .month-header .header-c {
+    width: 48%;
+}
+
+.zodiac-month .month-header .header-l, .zodiac-month .month-header .header-r {
+    width: 26%;
+    position: relative;
+}
+
+.zodiac-month .month-header .header-l i, .zodiac-month .month-header .header-r i {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background: url("../images/jiao/jiao1.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/jiao/jiao1.png*/ 100% 100% no-repeat;
+    background-size: contain;
+}
+
+.zodiac-month .month-header .header-l i {
+    top: 0;
+    left: -2px;
+}
+
+.zodiac-month .month-header .header-r i {
+    top: 0;
+    right: 1px;
+    background-image: url("../images/jiao/jiao2.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/jiao/jiao2.png*/;
+}
+
+.zodiac-month .month-header .header-l span {
+    width: 1.4rem;
+    font-size: 1.4rem;
+    display: inline-block;
+    line-height: 2rem;
+    margin-left: 5rem;
+    margin-top: .5rem;
+    color: #fff;
+}
+
+.zodiac-month .month-header .header-r p {
+    height: 2rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.zodiac-month .month-header .header-c img {
+    height: 4rem;
+    width: auto;
+    margin: .5rem auto;
+}
+
+.zodiac-month .month-time {
+    width: 100%;
+    border: 2px solid #de7362;
+    color: #515049;
+    font-size: 1.2rem;
+    border-left-color: #ca1915;
+    border-right-color: #ca1915;
+}
+
+.zodiac-month .month-time span {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.zodiac-month .month-tip {
+    border: 2px solid #ca1915;
+    border-top: 0;
+    border-bottom: 0;
+    background: #fbf24e;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #7b0000;
+}
+
+.zodiac-month .month-con {
+    padding: 2rem;
+    border: 2px solid #ca1915;
+    border-top: 0;
+    border-radius: 0 0 .4rem .4rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    color: #2c2c2c;
+    position: relative;
+}
+
+.zodiac-month .month-con:before, .zodiac-month .month-con:after {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    position: absolute;
+    background: url("../images/jiao/jiao3.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/jiao/jiao3.png*/ 100% 100% no-repeat;
+    background-size: contain;
+}
+
+.zodiac-month .month-con:before {
+    bottom: 0;
+    left: -2px;
+}
+
+.zodiac-month .month-con:after {
+    bottom: 0;
+    right: 0;
+    background-image: url("../images/jiao/jiao4.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/jiao/jiao4.png*/;
+}
+
+.month-btn ul {
+    height: 9rem;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.month-btn ul li {
+    width: 16.6666%;
+    height: 4rem;
+    float: left;
+    margin-top: .5rem;
+}
+
+.month-btn ul li i {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/res/btn/01.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/01.png*/ 100% 100% no-repeat;
+    background-size: contain;
+}
+
+.month-btn ul li:nth-child(1) i {
+    background-image: url("../images/res/btn/01.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/01.png*/;
+}
+
+.month-btn ul li:nth-child(2) i {
+    background-image: url("../images/res/btn/02.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/02.png*/;
+}
+
+.month-btn ul li:nth-child(3) i {
+    background-image: url("../images/res/btn/03.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/03.png*/;
+}
+
+.month-btn ul li:nth-child(4) i {
+    background-image: url("../images/res/btn/04.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/04.png*/;
+}
+
+.month-btn ul li:nth-child(5) i {
+    background-image: url("../images/res/btn/05.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/05.png*/;
+}
+
+.month-btn ul li:nth-child(6) i {
+    background-image: url("../images/res/btn/06.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/06.png*/;
+}
+
+.month-btn ul li:nth-child(7) i {
+    background-image: url("../images/res/btn/07.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/07.png*/;
+}
+
+.month-btn ul li:nth-child(8) i {
+    background-image: url("../images/res/btn/08.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/08.png*/;
+}
+
+.month-btn ul li:nth-child(9) i {
+    background-image: url("../images/res/btn/09.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/09.png*/;
+}
+
+.month-btn ul li:nth-child(10) i {
+    background-image: url("../images/res/btn/10.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/10.png*/;
+}
+
+.month-btn ul li:nth-child(11) i {
+    background-image: url("../images/res/btn/11.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/11.png*/;
+}
+
+.month-btn ul li:nth-child(12) i {
+    background-image: url("../images/res/btn/12.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/12.png*/;
+}
+
+.month-btn ul li:nth-child(1).active i {
+    background-image: url("../images/res/btn/010.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/010.png*/;
+}
+
+.month-btn ul li:nth-child(2).active i {
+    background-image: url("../images/res/btn/020.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/020.png*/;
+}
+
+.month-btn ul li:nth-child(3).active i {
+    background-image: url("../images/res/btn/030.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/030.png*/;
+}
+
+.month-btn ul li:nth-child(4).active i {
+    background-image: url("../images/res/btn/040.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/040.png*/;
+}
+
+.month-btn ul li:nth-child(5).active i {
+    background-image: url("../images/res/btn/050.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/050.png*/;
+}
+
+.month-btn ul li:nth-child(6).active i {
+    background-image: url("../images/res/btn/060.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/060.png*/;
+}
+
+.month-btn ul li:nth-child(7).active i {
+    background-image: url("../images/res/btn/070.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/070.png*/;
+}
+
+.month-btn ul li:nth-child(8).active i {
+    background-image: url("../images/res/btn/080.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/080.png*/;
+}
+
+.month-btn ul li:nth-child(9).active i {
+    background-image: url("../images/res/btn/090.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/090.png*/;
+}
+
+.month-btn ul li:nth-child(10).active i {
+    background-image: url("../images/res/btn/0100.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/0100.png*/;
+}
+
+.month-btn ul li:nth-child(11).active i {
+    background-image: url("../images/res/btn/0110.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/0110.png*/;
+}
+
+.month-btn ul li:nth-child(12).active i {
+    background-image: url("../images/res/btn/0120.png")/*tpa=https://yzz.nipshou.com/static/sxyc/images/res/btn/0120.png*/;
+}
+
+.popup-qr-pc .pay-qrcode p {
+    background: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.popup-qr-pc .pay-qrcode .qr-iframe {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    margin: 0.4rem auto;
+    overflow: hidden;
+}
+
+.popup-qr-pc .pay-qrcode iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 301px;
+    height: 321px;
+    -webkit-transform: translate(-50%, -50%) scale(0.86);
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+@media screen and (max-width: 320px) {
+    .sx-desc-content p {
+        width: 69%;
+        font-size: 12px;
+        line-height: 1;
+    }
+
+    .payer-font {
+        width: 10rem;
+    }
+
+    .zodiac-desc-pay .paid-desc {
+        font-size: 1rem;
+    }
+
+    .result-info h2 span {
+        font-size: 1rem;
+    }
+
+    .result-tabs .measure_index span {
+        font-size: 1rem;
+    }
+
+    .zodiac-month .month-time span {
+        margin-left: .3rem;
+    }
+
+    .zodiac-month .month-time span:last-child {
+        margin-left: .8rem;
+    }
+
+    .zodiac-month .month-header .header-l i, .zodiac-month .month-header .header-r i {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .zodiac-month .month-header .header-l i {
+        top: 0;
+        left: -1px;
+    }
+
+    .zodiac-month .month-header .header-r i {
+        top: 0;
+        right: 0;
+    }
+
+    .zodiac-month .month-con:before, .zodiac-month .month-con:after {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .zodiac-month .month-con:before {
+        bottom: 0;
+        left: -1px;
+    }
+
+    .zodiac-desc p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    .result-info h2 span {
+        font-size: 1.1rem;
+    }
+
+    .result-tabs .measure_index span {
+        font-size: 1.2rem;
+    }
+
+    .zodiac-month .month-time span {
+        margin-left: .5rem;
+    }
+
+    .zodiac-month .month-time span:last-child {
+        margin-left: 1rem;
+    }
+
+    .zodiac-desc .desc span {
+        font-size: 1.2rem;
+    }
+
+    .zodiac-month .month-header .header-l i, .zodiac-month .month-header .header-r i {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .zodiac-month .month-header .header-l i {
+        top: 0;
+        left: -1px;
+    }
+
+    .zodiac-month .month-header .header-r i {
+        top: 0;
+        right: 0;
+    }
+
+    .zodiac-month .month-con:before, .zodiac-month .month-con:after {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .zodiac-month .month-con:before {
+        bottom: 0;
+        left: -1px;
+    }
+
+    .zodiac-desc .desc {
+        height: 15rem;
+    }
+
+    .zodiac-desc p {
+        font-size: 1rem;
+    }
+
+    .top-header .tle {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 440px) {
+    .payer-info .info-left .header-pic {
+        width: 8rem;
+    }
+
+    .payer-info .info-left .header-pic p {
+        font-size: 1.6rem;
+        margin-top: .6rem;
+    }
+
+    .payer-info .info-left img.sxsx-pic {
+        width: 3rem;
+    }
+
+    .payer-font {
+        float: left;
+        margin-left: 1rem;
+        margin-top: 1rem
+    }
+
+    .payer-info .info-right img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 1rem;
+    }
+
+    .zodiac-desc-pay .paid-desc {
+        font-size: 1.1rem
+    }
+
+    .result-info h2 span {
+        font-size: 1.2rem;
+    }
+
+    .result-tabs .measure_index span {
+        font-size: 1.2rem;
+    }
+
+    .zodiac-month .month-time span {
+        margin-left: .5rem;
+    }
+
+    .zodiac-month .month-time span:last-child {
+        margin-left: 1rem;
+    }
+
+    .zodiac-month .month-header .header-l i, .zodiac-month .month-header .header-r i {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .zodiac-month .month-header .header-l i {
+        top: 0;
+        left: -2px;
+    }
+
+    .zodiac-month .month-header .header-r i {
+        top: 0;
+        right: 0;
+    }
+
+    .zodiac-month .month-con:before, .zodiac-month .month-con:after {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .zodiac-month .month-con:before {
+        bottom: 0;
+        left: -2px;
+    }
+
+    .zodiac-desc .desc span {
+        font-size: 1.2rem;
+    }
+
+    .zodiac-desc .desc {
+        height: 16rem;
+    }
+
+    .zodiac-desc p {
+        font-size: 1.1rem;
+    }
+
+    .top-header .tle {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 600px) {
+    .sx-desc-content p {
+        font-size: 1.3rem;
+        line-height: 1.1;
+    }
+
+    .payer-info .info-left .header-pic {
+        width: 12rem;
+    }
+
+    .payer-info .info-left img.sxsx-pic {
+        width: 4rem;
+    }
+
+    .payer-info .info-right img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .payer-font {
+        float: left;
+        margin-left: 1rem;
+        margin-top: 1rem
+    }
+
+    .zodiac-desc-pay .paid-desc {
+        font-size: 1.2rem
+    }
+
+    .result-info .measure_index li {
+        padding-left: 2rem;
+    }
+
+    .result-info p.result_desc {
+        padding: 0 2.8rem 2rem;
+    }
+
+    .result-tabs .measure_index span {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .sx-desc-content p {
+        font-size: 1.4rem;
+        line-height: 1.1;
+    }
+
+    .payer-info .info-left .header-pic {
+        width: 12rem;
+    }
+
+    .payer-info .info-left img.sxsx-pic {
+        width: 4rem;
+    }
+
+    .payer-info .info-right img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .result-info .measure_index li {
+        padding-left: 2rem;
+    }
+
+    .result-info p.result_desc {
+        padding: 0 2.8rem 2rem;
+    }
+}

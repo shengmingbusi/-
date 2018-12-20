@@ -1,0 +1,92 @@
+.popup-quit .popup-content {
+    background: #fff;
+    max-width: 400px;
+}
+.popup-quit .popup-content ul li a{
+    width: 100%;
+    display: table;
+    padding: 10px;
+    border-bottom: 1px solid #eff1f7;
+}
+.popup-quit .popup-content .pop_header {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #e31b3a;
+}
+.popup-quit .popup-content img{
+    width: 120px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.popup-quit .popup-content .pro_desc , .popup-quit .popup-content .pop_s{
+    display: table-cell;
+    vertical-align: middle;
+    color: #111;
+}
+.popup-quit .popup-content .pro_desc{
+    padding-left: 5px;
+}
+.popup-quit .popup-content .pro_desc p {
+    padding: 15px;
+    font-size: 16px;
+}
+.popup-quit .popup-content .pro_desc p:last-child{
+    color: #b3b3b3;
+}
+.com-popup.com-popup-out .pop_home {
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #b3b3b3;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eff1f7;
+}
+.com-popup.com-popup-out .pop_btn a{
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 8px;
+    background: #e31b3a;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+    .com-popup .popup-content{
+        padding: 0;
+    }
+    .popup-quit .popup-content img{
+        width: 65px;
+    }
+    .com-popup.com-popup-out .pop_home {
+        padding: 5px;
+    }
+    .popup-quit .popup-content .pro_desc p {
+        padding: 0;
+    }
+    .popup-quit .popup-content .pro_desc p {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:360px) and (max-width: 450px) {
+    .com-popup .popup-content{
+        padding: 0;
+    }
+    .popup-quit .popup-content img{
+        width: 65px;
+    }
+    .com-popup.com-popup-out .pop_home {
+        padding: 5px;
+    }
+    .popup-quit .popup-content .pro_desc p {
+        padding: 5px;
+    }
+    .popup-quit .popup-content .pro_desc p {
+        font-size: 14px;
+    }
+}

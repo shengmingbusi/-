@@ -1,0 +1,165 @@
+.more-product {
+  padding: 0.34rem 0.3rem 0 0.3rem;
+  background-color: #ef2c69;
+}
+.more-product .h2-title {
+  font-size: 0.7rem;
+  color: #111;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.more-product .h2-title span {
+  position: relative;
+}
+
+.more-product .compage-title {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0.56rem;
+  padding: 0;
+}
+.more-product .compage-title span {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  background-color: #e5af49;
+  font-size: 0.56rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #fff;
+}
+.more-product p {
+  font-size: 0.42rem;
+  padding: 0.4rem 0.8rem;
+  text-indent: 2em;
+  text-align: justify;
+}
+.more-product .hot-app {
+  width: 13.4rem;
+  margin: 0 0.8rem;
+  padding-bottom: 0.48rem;
+}
+.more-product .hot-app li {
+  width: 3.35rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.more-product .hot-app li a {
+  width: 100%;
+  display: block;
+}
+.more-product .hot-app li img {
+  width: 2.88rem;
+  height: 2.88rem;
+  margin-left: 0.235rem;
+  margin-bottom: -0.3rem;
+}
+.more-product .hot-app li span {
+  color: #111;
+  font-size: 0.55rem;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: .5rem;
+}
+.more-product .hh-precious li {
+  float: left;
+  width: 45.2%;
+  margin-left: 3.2%;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.more-product .hh-precious li > a {
+  display: block;
+}
+.more-product .hh-precious li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.more-product .hh-precious li p {
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+}
+.more-product .hh-precious li .p-a {
+  font-size: 0.66rem;
+  color: #f8dc7e;
+  margin-top: 0.3rem;
+}
+.more-product .hh-precious li .p-b {
+  font-size: 0.5rem;
+  color: #fff;
+  margin-top: 0.24rem;
+}
+.more-product .hh-precious li .span-btn {
+  position: relative;
+  display: block;
+  width: 5.92rem;
+  margin: 0.6rem auto;
+}
+.more-product .hh-precious li .span-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1.3rem;
+  border-radius: 0.2rem;
+  background: #a68414;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f8dc7e), to(#947611));
+  background-image: linear-gradient(180deg, #f8dc7e 50%, #947611);
+}
+.more-product .hh-precious li .span-btn > span {
+  display: block;
+  background: #f8dc7e;
+  color: #f00;
+  font-size: 0.66rem;
+  width: 5.92rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  border-radius: 0.2rem;
+  font-weight: bold;
+  position: relative;
+  top: -3px;
+}
+
+.form-group {
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  background-color: #820307;
+}
+.form-group .form-wrap {
+  border: 2px solid #811b03;
+  padding: 0 0.24rem;
+  background-color: #fff;
+}
+.form-group input {
+  border: 0;
+}
+.form-group .form-item {
+  height: 1.96rem;
+  line-height: 1.96rem;
+  border-bottom: 0.04rem dashed #9b5e50;
+  padding-bottom: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.form-group .form-item label {
+  font-size: 0.64rem;
+  color: #811b03;
+  vertical-align: text-bottom;
+}
+.form-group .form-item input.flex-1 {
+  font-size: 0.64rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+  margin-top: 1px;
+}
+.form-group .form-item.bbn {
+  border-bottom: 0;
+}
